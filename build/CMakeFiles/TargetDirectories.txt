@@ -1,0 +1,14 @@
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/rebuild_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/edit_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/CMakeFiles/rebuild_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/CMakeFiles/main.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/CMakeFiles/edit_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/array/CMakeFiles/rebuild_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/array/CMakeFiles/array.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/array/CMakeFiles/edit_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/pointer/CMakeFiles/rebuild_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/pointer/CMakeFiles/pointer.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/pointer/CMakeFiles/edit_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/qrcode/CMakeFiles/rebuild_cache.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/qrcode/CMakeFiles/qrcode.dir
+/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/src/qrcode/CMakeFiles/edit_cache.dir

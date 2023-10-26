@@ -1,0 +1,407 @@
+The system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/3.20.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/3.20.0/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a94e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7a94e.dir/build.make CMakeFiles/cmTC_7a94e.dir/build
+make[1]: Entering directory '/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-gcc   -v -o CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xgcc
+Target: mips-linux-uclibc
+Configured with: Realtek SDK Builder release 6
+Thread model: posix
+gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) 
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/cc1 -quiet -v -imultilib 5281/el/hard-float -iprefix /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/ -isysroot /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mfp64 -mhard-float -march=5281 -mllsc -mplt -mfp64 -mno-shared -mabi=32 -auxbase-strip CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccJramru.s
+GNU C11 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include"
+ignoring nonexistent directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/local/include"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include
+End of search list.
+GNU C11 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 324b6a538ac0cf8a71b4f110f573dd5a
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/as -v -EL -O1 -no-mdebug -mabi=32 -march=5281 -mfp64 -mfp64 -mno-shared -mhard-float -call_nonpic -o CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o /tmp/ccJramru.s
+GNU assembler version 2.27.90 (mips-linux-uclibc) using BFD version (Realtek RSDK-6.5.0 Build 3222) 2.27.90.20161222
+COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/
+LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+Linking C executable cmTC_7a94e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a94e.dir/link.txt --verbose=1
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-gcc  -v CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -o cmTC_7a94e 
+Using built-in specs.
+COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xgcc
+COLLECT_LTO_WRAPPER=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper
+Target: mips-linux-uclibc
+Configured with: Realtek SDK Builder release 6
+Thread model: posix
+gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) 
+COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/
+LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'cmTC_7a94e' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/collect2 -plugin /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/liblto_plugin.so -plugin-opt=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrXfFHv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc --build-id --eh-frame-hdr -EL -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_7a94e /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crt1.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crti.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtbegin.o -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0 -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtend.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'cmTC_7a94e' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+make[1]: Leaving directory '/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include]
+  end of search list found
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include-fixed]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include]
+  implicit include dirs: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include-fixed;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(rsdk-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a94e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7a94e.dir/build.make CMakeFiles/cmTC_7a94e.dir/build]
+  ignore line: [make[1]: Entering directory '/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-gcc   -v -o CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xgcc]
+  ignore line: [Target: mips-linux-uclibc]
+  ignore line: [Configured with: Realtek SDK Builder release 6]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/cc1 -quiet -v -imultilib 5281/el/hard-float -iprefix /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/ -isysroot /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mfp64 -mhard-float -march=5281 -mllsc -mplt -mfp64 -mno-shared -mabi=32 -auxbase-strip CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccJramru.s]
+  ignore line: [GNU C11 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include"]
+  ignore line: [ignoring nonexistent directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 324b6a538ac0cf8a71b4f110f573dd5a]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/as -v -EL -O1 -no-mdebug -mabi=32 -march=5281 -mfp64 -mfp64 -mno-shared -mhard-float -call_nonpic -o CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o /tmp/ccJramru.s]
+  ignore line: [GNU assembler version 2.27.90 (mips-linux-uclibc) using BFD version (Realtek RSDK-6.5.0 Build 3222) 2.27.90.20161222]
+  ignore line: [COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  ignore line: [Linking C executable cmTC_7a94e]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a94e.dir/link.txt --verbose=1]
+  ignore line: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-gcc  -v CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -o cmTC_7a94e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xgcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper]
+  ignore line: [Target: mips-linux-uclibc]
+  ignore line: [Configured with: Realtek SDK Builder release 6]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) ]
+  ignore line: [COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'cmTC_7a94e' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  link line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/collect2 -plugin /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/liblto_plugin.so -plugin-opt=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrXfFHv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc --build-id --eh-frame-hdr -EL -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_7a94e /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crt1.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crti.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtbegin.o -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0 -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtend.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crtn.o]
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrXfFHv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7a94e] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtbegin.o] ==> ignore
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib]
+    arg [CMakeFiles/cmTC_7a94e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtend.o] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crtn.o] ==> ignore
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_78329/fast && /usr/bin/make  -f CMakeFiles/cmTC_78329.dir/build.make CMakeFiles/cmTC_78329.dir/build
+make[1]: Entering directory '/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-g++   -v -o CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xg++
+Target: mips-linux-uclibc
+Configured with: Realtek SDK Builder release 6
+Thread model: posix
+gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) 
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/cc1plus -quiet -v -imultilib 5281/el/hard-float -iprefix /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/ -isysroot /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc -D_GNU_SOURCE /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfp64 -mhard-float -march=5281 -mllsc -mplt -mfp64 -mno-shared -mabi=32 -auxbase-strip CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccmaus9z.s
+GNU C++14 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/backward"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include"
+ignoring nonexistent directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/local/include"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include"
+ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/backward
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include
+End of search list.
+GNU C++14 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8b1e57a9d5d66aa579083958cce93c77
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/as -v -EL -O1 -no-mdebug -mabi=32 -march=5281 -mfp64 -mfp64 -mno-shared -mhard-float -call_nonpic -o CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmaus9z.s
+GNU assembler version 2.27.90 (mips-linux-uclibc) using BFD version (Realtek RSDK-6.5.0 Build 3222) 2.27.90.20161222
+COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/
+LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+Linking CXX executable cmTC_78329
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78329.dir/link.txt --verbose=1
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-g++  -v CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_78329 
+Using built-in specs.
+COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xg++
+COLLECT_LTO_WRAPPER=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper
+Target: mips-linux-uclibc
+Configured with: Realtek SDK Builder release 6
+Thread model: posix
+gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) 
+COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/
+LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'cmTC_78329' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/collect2 -plugin /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/liblto_plugin.so -plugin-opt=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0r1khF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc --build-id --eh-frame-hdr -EL -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_78329 /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crt1.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crti.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtbegin.o -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0 -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtend.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'cmTC_78329' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32'
+make[1]: Leaving directory '/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/backward]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed]
+    add: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include]
+  end of search list found
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include/c++/6.5.0]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/backward] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include/c++/6.5.0/backward]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include-fixed]
+  collapse include dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include]
+  implicit include dirs: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include/c++/6.5.0;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include/c++/6.5.0/backward;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/include-fixed;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(rsdk-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_78329/fast && /usr/bin/make  -f CMakeFiles/cmTC_78329.dir/build.make CMakeFiles/cmTC_78329.dir/build]
+  ignore line: [make[1]: Entering directory '/media/hnha99/Ubuntu20/demo_linux/CMake_Tutorial/example_cmake/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-g++   -v -o CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xg++]
+  ignore line: [Target: mips-linux-uclibc]
+  ignore line: [Configured with: Realtek SDK Builder release 6]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/cc1plus -quiet -v -imultilib 5281/el/hard-float -iprefix /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/ -isysroot /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc -D_GNU_SOURCE /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfp64 -mhard-float -march=5281 -mllsc -mplt -mfp64 -mno-shared -mabi=32 -auxbase-strip CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccmaus9z.s]
+  ignore line: [GNU C++14 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/backward"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include"]
+  ignore line: [ignoring nonexistent directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/../../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include"]
+  ignore line: [ignoring duplicate directory "/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/mips-linux-uclibc/5281/el/hard-float]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include/c++/6.5.0/backward]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/include-fixed]
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Realtek RSDK-6.5.0 Build 3222) version 6.5.0 (mips-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8b1e57a9d5d66aa579083958cce93c77]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  ignore line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/as -v -EL -O1 -no-mdebug -mabi=32 -march=5281 -mfp64 -mfp64 -mno-shared -mhard-float -call_nonpic -o CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmaus9z.s]
+  ignore line: [GNU assembler version 2.27.90 (mips-linux-uclibc) using BFD version (Realtek RSDK-6.5.0 Build 3222) 2.27.90.20161222]
+  ignore line: [COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  ignore line: [Linking CXX executable cmTC_78329]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78329.dir/link.txt --verbose=1]
+  ignore line: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-g++  -v CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_78329 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//bin/mips-linux-uclibc-xg++]
+  ignore line: [COLLECT_LTO_WRAPPER=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper]
+  ignore line: [Target: mips-linux-uclibc]
+  ignore line: [Configured with: Realtek SDK Builder release 6]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.5.0 (Realtek RSDK-6.5.0 Build 3222) ]
+  ignore line: [COMPILER_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/:/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfp64' '-mhard-float' '-EL' '-march=5281' '-v' '-o' 'cmTC_78329' '-shared-libgcc' '-mllsc' '-mplt' '-mfp64' '-mno-shared' '-mabi=32']
+  link line: [ /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/collect2 -plugin /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/liblto_plugin.so -plugin-opt=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0r1khF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc --build-id --eh-frame-hdr -EL -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_78329 /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crt1.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crti.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtbegin.o -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0 -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib -L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtend.o /media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crtn.o]
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../libexec/gcc/mips-linux-uclibc/6.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0r1khF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_78329] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtbegin.o] ==> ignore
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib]
+    arg [-L/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib] ==> dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib]
+    arg [CMakeFiles/cmTC_78329.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float/crtend.o] ==> ignore
+    arg [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/crtn.o] ==> ignore
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib/5281/el/hard-float] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib/5281/el/hard-float]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/../lib/gcc/mips-linux-uclibc/6.5.0/../../../../mips-linux-uclibc/lib] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/lib] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib]
+  collapse library dir [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain//mips-linux-uclibc/usr/lib] ==> [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib/5281/el/hard-float;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc/mips-linux-uclibc/6.5.0;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/lib/gcc;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/lib;/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/mips-linux-uclibc/usr/lib]
+  implicit fwks: []
+
+

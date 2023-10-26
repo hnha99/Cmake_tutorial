@@ -1,0 +1,2 @@
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-ar qc libqrcode.a CMakeFiles/qrcode.dir/qrcode.c.o
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-ranlib libqrcode.a

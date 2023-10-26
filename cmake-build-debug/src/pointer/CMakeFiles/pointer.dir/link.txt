@@ -1,0 +1,2 @@
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-ar qc libpointer.a CMakeFiles/pointer.dir/pointer.c.o
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-ranlib libpointer.a

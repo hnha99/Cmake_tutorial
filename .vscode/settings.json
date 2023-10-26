@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "*.tcc": "c",
+        "cstdlib": "c",
+        "memory": "c",
+        "new": "c",
+        "array.h": "c",
+        "mtce_qrcode.h": "c"
+    }
+}

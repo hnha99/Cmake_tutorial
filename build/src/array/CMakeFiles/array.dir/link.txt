@@ -1,0 +1,2 @@
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-ar qc libarray.a CMakeFiles/array.dir/array.c.o
+/media/hnha99/Ubuntu20/sdk_realtek/mips_realtek/rsdk_toolchain/bin/rsdk-linux-ranlib libarray.a
